@@ -8,7 +8,7 @@
 
 ## Installation
 
-`npm install --save emoji-mart-vue`
+`npm install --save emoji-mart-vue-fixed2`
 
 ## Components
 ### Picker
