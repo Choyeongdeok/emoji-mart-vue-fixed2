@@ -8,8 +8,11 @@
 
 ## Changes from emoji-mart-vue
 fixed incorrect category when I clicked with window expanded
+
 https://github.com/jm-david/emoji-mart-vue/pull/45/commits
+
 https://github.com/jm-david/emoji-mart-vue/pull/49/commits
+
 
 ## Installation
 
