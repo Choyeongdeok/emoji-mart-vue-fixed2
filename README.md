@@ -6,6 +6,11 @@
   <br><img src="https://cloud.githubusercontent.com/assets/436043/17186519/9e71e8fe-5403-11e6-9314-21365c56a601.png">
 </div>
 
+## Changes from emoji-mart-vue
+fixed incorrect category when I clicked with window expanded
+https://github.com/jm-david/emoji-mart-vue/pull/45/commits
+https://github.com/jm-david/emoji-mart-vue/pull/49/commits
+
 ## Installation
 
 `npm install --save emoji-mart-vue-fixed2`
