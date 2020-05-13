@@ -7,7 +7,7 @@
 </div>
 
 ## Changes from emoji-mart-vue
-fixed incorrect category when I clicked with window expanded
+fixed incorrect category when I clicked with window is expanded
 
 https://github.com/jm-david/emoji-mart-vue/pull/45/commits
 
