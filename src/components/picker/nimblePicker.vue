@@ -136,8 +136,12 @@ export default {
       recentEmojis = recentEmojis.filter(e => this.emojisToShowFilter(this.mutableData.emojis[e] || e))
     }
 
+    if (this.data.compressed) {
+      uncompress(this.data)
+    }
+
     return {
-      mutableData: this.data.compressed ? uncompress(this.data) : this.data,
+      mutableData: this.data,
       mutableI18n: deepMerge(I18N, this.i18n),
       activeSkin: this.skin || store.get('skin') || this.defaultSkin,
       categories: [],
@@ -176,7 +180,7 @@ export default {
       }
     },
     calculateWidth() {
-      return (this.perLine * (this.emojiSize + 12)) + 12 + 2 + measureScrollbar()
+      return (this.perLine * (this.emojiSize + 12)) + 12 + 3 + measureScrollbar()
     },
     filteredCategories() {
       return this.categories.filter((category) => {
@@ -252,7 +256,7 @@ export default {
                 top = 0
               }
 
-              this.$refs.scroll.scrollTop = top
+              this.$refs.scroll.scrollTop = top + 1
             }
           }
 
